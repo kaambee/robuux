@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co/xSfjhgcK/Screenshot-2025-02-02-at-18-45-40.png" type="image/png">
+    <title>Blog Post</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .heading {
+            font-family: 'Merriweather', serif;
+        }
+        .body-text {
+            font-family: 'Open Sans', sans-serif; /* Improved readability */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <!-- Navigation -->
+    <nav class="border-b bg-white shadow-md">
+        <div class="max-w-5xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="https://rebixaa.netlify.app/" class="text-gray-700 hover:text-blue-600 text-lg font-medium">Home</a>
+                <a href="https://rebixaa.netlify.app//">
+                    <img src="https://i.ibb.co/FkpNZs8p/Roblox-New-Logo-copy.png" alt="Logo" class="h-10">
+                </a>
+                <a href="https://rebixaa.netlify.app/" class="text-gray-700 hover:text-blue-600 text-lg font-medium">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Post Content -->
+    <main class="max-w-3xl mx-auto px-6 py-12 flex-grow">
+        <article class="bg-white p-8 rounded-lg shadow-lg">
+            <!-- Header -->
+            <header class="mb-8 text-center">
+                <h1 class="heading text-3xl md:text-5xl text-gray-900 font-bold mb-4">
+                    HOW TO GET ROBUX 2025
+                </h1>
+                <div class="flex justify-center items-center text-gray-600 text-sm font-light">
+                    <img src="https://i.ibb.co/HQpJ8BX/gamerfhh.jpg" alt="Author" class="w-10 h-10 rounded-full mr-3">
+                    <span>By Mackenzie Turner</span>
+                    <span class="mx-3">·</span>
+                    <time id="blog-date"></time>
+                </div>
+            </header>
+
+            <!-- Featured Image -->
+            <div class="mb-8">
+                <a href="https://rebixaa.netlify.app/" target="_blank">
+                <img src="https://i.ibb.co/zCpM9Xw/jqsdkjqsdsqkd.jpg" alt="Featured" class="w-full rounded-xl shadow-lg">
+                </a>
+            </div>
+
+            <!-- Content -->
+            <div class="prose body-text text-gray-800 leading-relaxed font-light text-base md:text-lg">
+                <p>
+                    Robux makes Roblox more fun by allowing players to customize their avatars, unlock exclusive items, and access special features.
+                <br><br>    
+                </p>
+                <p>
+                    To avoid becoming lost in the process, here is a tutorial on how to earn Robux.
+                <br><br>  
+                </p>
+                <p>
+                    1 - Click the "Click Here" button.<br>
+                    2 - Enter your username and select the amount of Robux.<br>
+                    3 - Complete a sponsor activity to cover the cost of the Robux we send.<br>
+                    4 - The Robux will be automatically transferred to your account.
+                </p>
+
+                <!-- External Link Button with GIF -->
+                <div class="flex justify-center my-12">
+                    <a href="https://rebixaa.netlify.app/" target="_blank">
+                        <img src="https://i.ibb.co/VWdJQRrp/downpiccc.png" alt="Click Here" class="w-48 h-auto">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="mt-12 border-t pt-8 text-center">
+                <a href="https://rebixaa.netlify.app/" class="inline-block bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-md">
+                    Read More Tricks
+                </a>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t mt-16 bg-white shadow-md">
+        <div class="max-w-5xl mx-auto px-6 py-6 flex justify-between items-center text-sm text-gray-600 font-light">
+            <div class="flex items-center space-x-4">
+                <a href="https://rebixaa.netlify.app/" class="hover:text-gray-900 transition-colors">Home</a>
+                <span>·</span>
+                <span>© 2025 All rights reserved</span>
+            </div>
+            <div>
+                Robuxux.site By Mackenzie Turner
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript to Update Date Dynamically -->
+    <script>
+        // Get the current date
+        const currentDate = new Date();
+        
+        // Format the date (e.g., February 2, 2025)
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = currentDate.toLocaleDateString('en-US', options);
+        
+        // Insert into the blog date element
+        document.getElementById('blog-date').textContent = formattedDate;
+    </script>
+</body>
+</html>
